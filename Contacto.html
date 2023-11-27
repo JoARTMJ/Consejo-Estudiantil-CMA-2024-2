@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Colegio Maria Alvarado</title>
+    <style>
+         .form-container {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .left-image {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .right-image {
+            float: right;
+            margin-left: 10px;
+        }
+        .contenedor-video {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+
+        .form-container input[type="text"]
+	{
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .texto-derecha {
+            text-align: right;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px:;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar img {
+            float: right;
+            margin-left: 10px;
+        }
+        
+        .navbar a {
+            color: #00EEFF;
+
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+      
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        h6 {
+            text-align: center;
+        }
+        h5 {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+         .contenedor-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenedor-imagenes {
+            display: flex;
+        }
+         .contenedor-imagen {
+           display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+         .imagen-centrada {
+             display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="QuienesSomos.html">Quienes Somos</a></li>
+        </ul>
+         <div class="centrar-texto">
+        <h1>COLEGIO MARÍA ALVARADO</h1>
+    </div>
+         <!-- Imagen a la derecha en el navbar -->
+          <img src="images/unnamed.png" alt="Logo del Colegio"  width="150" height="150">
+    </div>
+<aside>
+
+        <!-- Formulario de búsqueda de Google -->
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" placeholder="Buscar en Google">
+            <input type="submit" value="Buscar">
+        </form>
+	<div class="contenedor-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ziC8DuMyFm4?si=vP15JuOlECkrQAjW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
+    <div class="container">
+        <h1>Contactos</h1>
+       <div class="form-container">
+        <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Teléfono" required>
+
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" name="correo" placeholder="Correo" required>
+
+            <label for="comentario">Comentario</label>
+            <input type="text" id="comentario" name="comentario" placeholder="Comentario" required>
+            
+                <!-- Agrega más opciones de países según sea necesario -->
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+         <hr> <!-- Línea horizontal -->
+        <div class="contenedor-imagen">
+        <img src="images/mapa.png" alt="mapa" class="imagen-centrada">
+    </div>
+<hr> <!-- Línea horizontal -->
+<h1>Otros E-Mails de Contactos</h1>
+  <h2>Académico</h2>
+   <p>Dirección: direccion@cma.edu.pe</p>
+        <p>Admisión: admision@cma.edu.pe</p>
+        <p>Tutoría y convivencia: tutoria@cma.edu.pe</p>
+        <p>Convivencia y comportamiento: convivencia@cma.edu.pe</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+    <h2>Coordinaciones</h2>
+   <p>Inicial: inicial@cma.edu.pe</p>
+        <p>Primaria: primaria@cma.edu.pe</p>
+        <p>Secundaria: secundaria@cma.edu.pe</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+        <h2>Administración</h2>
+   <p>Administracion: administracion@cma.edu.pe</p>
+        <p>Secretaria: secretaria@cma.edu.pe</p>
+        <p>Contabilidad: contabilidad@cma.edu.pe</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+         <h2>Departamentos</h2>
+   <p>Capellanía: capellania@cma.edu.pe</p>
+        <p>Psicología: psicologia@cma.edu.pe</p>
+        <p>Tecnología/Sistemas: dte@cma.edu.pe</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+           <h2>Otros</h2>
+   <p>Biblioteca: biblioteca@cma.edu.pe</p>
+        <p>Imagen institucional: imagen@cma.edu.pe</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+             <h2>Promotora</h2>
+   <p>Iglesia Metodista del Perú</p>
+        <p>Obispo: Samuel Aguilar</p>
+        <p>obispado@diglesiametodista.org.pe</p>
+        <p>saguilar@iglesiametodista.org.pe</p>
+        <p>Telf. 4318995</p>
+   <div class="contenedor-imagen">
+        <img src="images/mail.png" alt="mail" class="imagen-centrada" width="150" height="150">
+    </div>
+    <hr> <!-- Línea horizontal -->
+    <div class="footer">
+    <p>Derechos de autor © 2023 - ArtMj Inc.</p>
+    </div>
+</body>
+</html>
